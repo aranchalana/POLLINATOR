@@ -1,13 +1,13 @@
-train: ./POLLINATOR-MERGE-ALL/train/images
-val: ./POLLINATOR-MERGE-ALL/valid/images
-test: ./POLLINATOR-MERGE-ALL/test/images
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 1
 names: ['pollinator']
 
 roboflow:
-  workspace: alana-1imkw
-  project: pollinator_merge_all-330r0
-  version: 1
+  workspace: alanacsic
+  project: merged-all-9kwga
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/alana-1imkw/pollinator_merge_all-330r0/dataset/1
+  url: https://universe.roboflow.com/alanacsic/merged-all-9kwga/dataset/4

@@ -1,5 +1,5 @@
-# pollinator_merge_all > 2024-07-29 2:33pm
-https://universe.roboflow.com/alana-1imkw/pollinator_merge_all-330r0
+# MERGED-ALL > 2025-06-17 10:48am
+https://universe.roboflow.com/alanacsic/merged-all-9kwga
 
 Provided by a Roboflow user
 License: CC BY 4.0

@@ -1,8 +1,8 @@
 
-pollinator_merge_all - v1 2024-07-29 2:33pm
+MERGED-ALL - v4 2025-06-17 10:48am
 ==============================
 
-This dataset was exported via roboflow.com on July 29, 2024 at 2:34 PM GMT
+This dataset was exported via roboflow.com on June 17, 2025 at 8:50 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,14 +17,15 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 18953 images.
-Pollinator-8JPC are annotated in YOLO v5 PyTorch format.
+The dataset includes 16389 images.
+Pollinator are annotated in YOLO v5 PyTorch format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 640x640 (Fit within)
+* Resize to 1024x1024 (Stretch)
 
 The following augmentation was applied to create 3 versions of each source image:
-* Randomly crop between 0 and 29 percent of the image
+* 50% probability of horizontal flip
+* Equal probability of one of the following 90-degree rotations: none, clockwise, counter-clockwise
 
 
